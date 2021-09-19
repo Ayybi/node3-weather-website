@@ -57,7 +57,7 @@ weatherForm.addEventListener('submit',(e) => {
                 }
                 else{
                     messageOne.textContent = data.location
-                    messageTwo.textContent = `${data.forecast.weather_description} and the temperature is ${data.forecast.temperature}`
+                    messageTwo.textContent = `${data.forecast.weather_description} and the temperature is ${data.forecast.temperature}and the humidity is around ${data.forecast.humidity}`
                     console.log(data.location)
                     
                     console.log(data.forecast)
